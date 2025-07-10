@@ -30,8 +30,6 @@ nav ul {
     display: flex;
     justify-content: space-between;
     padding: 0px 150px;
-
-
 }
 
 nav li {
@@ -146,4 +144,53 @@ header {
     width: 403px;
     height: 328px;
     border-radius: 48px;
+}
+
+/* users styles */
+.users {
+    font-family: "Raleway", sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: #252432;
+    text-align: center;
+    padding: 0px 300px;
+    margin: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #4d47ff20;
+    padding: 50px;
+    border-radius: 24px;
+}
+
+.users-cards {
+    font-family: "Inter", sans-serif;
+    color: #4E47FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.users-cards-deacription {
+    font-size: 24px;
+    font-weight: 500;
+    color: #2524326b;
+}
+
+.users-title {
+    margin: 10px;
+    font-family: "Raleway", sans-serif; 
+    font-size: 38px;
+    font-weight: 700;
+    color: #252432;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
 }
