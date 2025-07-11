@@ -119,18 +119,18 @@ header {
 .action-title {
     font-family: "Raleway", sans-serif;
     font-weight: 700px;
-    font-size: 42px;
+    font-size: 45px;
     color: #252432;
     margin-bottom: 20px;
 }
 
 .action-description {
     font-family: "Raleway", sans-serif;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 500;
     color: #2524326b;
     margin-bottom: 30px;
-    width: 517px;
+    width: 550px;
 }
 
 .action-button {
@@ -268,10 +268,55 @@ img {
 
 form {
     display: flex;
-    padding: 150px 200px;
+    padding: 200px 200px;
     justify-content: space-between;
     align-items: center;
+    
+}
 
+.column-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 490px;
+    width: 497px;
+}
+    
+
+form input, textarea {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #D6DDED;
+    font-family: "Inter", sans-serif
+}
+form h1 {
+font-size: 130px;
+font-weight: 700;
+height: 246px;
+width: 688px;
+}
+.text {
+    font-weight: medium;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+}
+
+.button {
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 19px,101px;
+    width: 497px;
+    height: 62px;
+   
 }
 
 /* footer styles */
@@ -289,6 +334,7 @@ footer h1 {
     color: #4E47FF;
     font-weight: 900;
     font-size: 120px;
+    font-family: "Inter", sans-serif;
 }
 
 footer h5 {
